@@ -30,6 +30,6 @@ inp.addEventListener("change", (e) => {
 
 function handleImageError(image) {
   
-  img.src = "/test/defaultImg.png";
+  img.src = "defaultImg.png";
   img.style.opacity = 0.5;
 }
