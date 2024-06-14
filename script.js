@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     image.src = savedImage;
     image.style.opacity = 1;
   } else {
-    image.src = '//test/defaultImg.png'; // Set a default image
+    image.src = 'defaultImg.png'; // Set a default image
   }
 })
 
@@ -23,13 +23,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }
       else {
         alert('Please upload an image file.');
-        img.src = "/test/defaultImg.png";
+        img.src = "defaultImg.png";
         img.style.opacity = 0.5;
       }
     }
   })
 
 function handleImageError(image) {
-  img.src = "/test/defaultImg.png";
+  img.src = "defaultImg.png";
   img.style.opacity = 0.5;
 }
